@@ -1,100 +1,133 @@
 <!DOCTYPE html>
-<!-- Declaração do tipo de documento (HTML5) -->
 <html lang="pt-BR">
-<!-- Tag raiz do documento, com atributo de idioma (português do Brasil) -->
 
 <head>
-  <!-- Cabeçalho do documento (metadados e links) -->
   <meta charset="UTF-8">
-  <!-- Define a codificação de caracteres como UTF-8 (suporta acentos e caracteres especiais) -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Configura a viewport para responsividade em dispositivos móveis -->
-  <title>Currículo Acadêmico - Rafael Assis Santos</title>
-  <!-- Título que aparece na aba do navegador -->
+  <title>Currículo - Rafael Assis Santos - Operador de Máquinas Agrícolas</title>
   <link rel="stylesheet" href="style.css">
-  <!-- Link para o arquivo CSS externo (estilos) -->
 </head>
 
 <body>
-  <!-- Corpo do documento (conteúdo visível) -->
-
-
   <header>
-  <div class="header-content">
-    <img src="ras.png"
- alt="Foto de perfil" class="profile-img">
-    <div class="header-text">
-       <!-- Cabeçalho da página -->
-      <h1>Rafael Assis Santos</h1>
-        <!-- Título principal (nome) -->
-      <p>Professor de: Programação👨‍💻 História⏳ Pedagogia🦉 Técnico de Informática💻 Teologia 📖</p>
-       <!-- Subtítulo (cargo) -->
+    <div class="header-content">
+      <img src="ras.png" alt="Foto de perfil - Rafael Assis Santos" class="profile-img">
+      <div class="header-text">
+        <h1>Rafael Assis Santos</h1>
+        <p class="cargos">Operador de Máquinas Agrícolas 🚜 | Tratorista | Colheitadeiras | Implementos Agrícolas 🌱</p>
+      </div>
     </div>
-  </div>
-   
-  <button id="modo-escuro">Alternar Modo Escuro</button>
-     <!-- Botão para alternar tema escuro/claro (funcionalidade no JavaScript) -->
-  <button id="imprimir">Imprimir currículo</button>
-    <!-- Botão para imprimir o currículo -->
-</header>
+    
+    <div class="botoes-controle">
+      <button id="modo-escuro" class="btn">🌓 Alternar Modo Escuro</button>
+      <button id="imprimir" class="btn">🖨️ Imprimir Currículo</button>
+    </div>
+  </header>
 
-  <section class="perfil">
-    <!-- Seção de perfil -->
-    <h2>Perfil</h2>
-    <!-- Título da seção -->
-    <p>Professor que ama o que faz</p>
-    <!-- Texto descritivo -->
-  </section>
+  <main>
+    <section class="perfil">
+      <h2>🚜 Perfil Profissional</h2>
+      <p>Profissional experiente na operação de máquinas agrícolas, com mais de 8 anos de atuação no campo. Habilidade em operar tratores, colheitadeiras, plantadeiras e implementos diversos. Conhecimento em manutenção preventiva, preparo de solo, plantio e colheita. Comprometido com a segurança no trabalho e a produtividade no campo.</p>
+    </section>
 
-  <section class="habilidades">
-    <!-- Seção de habilidades -->
-    <h2>Habilidades</h2>
-    <ul>
-      <!-- Lista não ordenada -->
-      <li>Programação Front-end e Back-end</li>
-      <!-- Item da lista -->
-      <li>Informática</li>
-      <li>Banco de Dados</li>
-      <li>Git e GitHub</li>
-      <li>Metodologias Ativas de Ensino</li>
-    </ul>
-  </section>
+    <section class="habilidades">
+      <h2>⚡ Habilidades Técnicas</h2>
+      <ul>
+        <li>Operação de Tratores (Massey Ferguson, John Deere, Valtra, New Holland)</li>
+        <li>Operação de Colheitadeiras (milho, soja, trigo)</li>
+        <li>Operação de Plantadeiras e Semeadoras</li>
+        <li>Preparo de Solo (arado, grade, subsolador)</li>
+        <li>Manutenção Preventiva e Pequenos Reparos</li>
+        <li>Pulverização e Aplicação de Defensivos Agrícolas</li>
+        <li>CNH Categoria B (Disponibilidade para tirar Categoria C)</li>
+      </ul>
+    </section>
 
-  <section class="formacao">
-    <!-- Seção de formação acadêmica -->
-    <h2>Formação Acadêmica</h2>
-    <p>História</p>
-    <p>Pedagogia</p>
-     <p>Análise e Desenvolvimento de Sistemas</p>
-    <!-- Parágrafo com informação -->
-    <p>Pós-graduações</p>
-    <p>Metodologias do Ensino da Matemática, Educação do Campo, Educação Especial, Teologia</p>
-  </section>
+    <section class="formacao">
+      <h2>📚 Formação e Cursos</h2>
+      
+      <h3>Formação Acadêmica</h3>
+      <ul>
+        <li><strong>Técnico em Agropecuária</strong> - Escola Técnica Agrícola (em andamento)</li>
+        <li><strong>Ensino Médio Completo</strong> - Colégio Estadual</li>
+      </ul>
+      
+      <h3>Cursos e Aprimoramentos</h3>
+      <ul>
+        <li><strong>Operação de Tratores Agrícolas</strong> - SENAR (40h) - 2023</li>
+        <li><strong>Manutenção de Máquinas Agrícolas</strong> - SENAR (24h) - 2022</li>
+        <li><strong>Operação de Colheitadeiras</strong> - John Deere University (32h) - 2023</li>
+        <li><strong>NR 31.8 - Segurança no Trabalho em Máquinas Agrícolas</strong> - SESI (20h) - 2024</li>
+        <li><strong>Aplicação de Defensivos Agrícolas (NR 31.7)</strong> - SENAR (24h) - 2023</li>
+      </ul>
+    </section>
 
-  <section class="experiencia">
-    <!-- Seção de experiência profissional -->
-    <h2>Experiência Profissional</h2>
-    <ul>
-      <li>Professor de Programação - Desde 2022</li>
-      <li>Técnico de Informática - Desde 2018</li>
-      <li> Professor de História - Desde 20214</li>
-    </ul>
-  </section>
+    <section class="experiencia">
+      <h2>💼 Experiência Profissional</h2>
+      
+      <div class="experiencia-item">
+        <h3>Operador de Máquinas Agrícolas</h3>
+        <p class="empresa">Fazenda Santa Fé | Londrina - PR</p>
+        <p class="periodo">Janeiro/2023 - Presente</p>
+        <ul class="descricao-lista">
+          <li>Operação de tratores John Deere 6J e Massey Ferguson 4292 em preparo de solo e plantio</li>
+          <li>Operação de colheitadeira John Deere S760 nas safras de soja e milho</li>
+          <li>Realização de manutenções preventivas e ajustes diários nas máquinas</li>
+          <li>Acompanhamento de cronogramas de plantio e colheita</li>
+        </ul>
+      </div>
+      
+      <div class="experiencia-item">
+        <h3>Tratorista</h3>
+        <p class="empresa">Fazenda Boa Esperança | Cambé - PR</p>
+        <p class="periodo">Março/2018 - Dezembro/2022</p>
+        <ul class="descricao-lista">
+          <li>Operação de tratores Valtra BM 125 e New Holland TL 75 em atividades de preparo de solo</li>
+          <li>Condução de plantadeiras de 12 linhas para plantio de soja e milho</li>
+          <li>Operação de pulverizadores para aplicação de defensivos</li>
+          <li>Auxílio na manutenção básica da frota de máquinas</li>
+        </ul>
+      </div>
+      
+      <div class="experiencia-item">
+        <h3>Auxiliar de Mecânico Agrícola</h3>
+        <p class="empresa">Oficina Agrícola Ribeiro | Arapongas - PR</p>
+        <p class="periodo">Janeiro/2016 - Fevereiro/2018</p>
+        <ul class="descricao-lista">
+          <li>Auxílio em manutenções corretivas e preventivas em máquinas agrícolas</li>
+          <li>Troca de óleo, filtros e revisão de sistemas hidráulicos</li>
+          <li>Diagnóstico de problemas mecânicos simples</li>
+        </ul>
+      </div>
+    </section>
 
-  <section class="contato">
-    <!-- Seção de contato -->
-    <h2>Contato</h2>
-    <p>Email: rafael.assis.santos@escola.pr.gov.br</p>
-    <p>GitHub: github.com/professor-rafael</p>
-  </section>
+    <section class="contato">
+      <h2>📞 Contato e Informações</h2>
+      <ul class="contato-lista">
+        <li>📧 <strong>Email:</strong> <a href="mailto:rafael.assis.santos@escola.pr.gov.br">rafael.assis.santos@escola.pr.gov.br</a></li>
+        <li>📱 <strong>Telefone/WhatsApp:</strong> (43) 9XXXX-XXXX</li>
+        <li>📍 <strong>Localização:</strong> Londrina - PR (disponível para mudança)</li>
+        <li>🚜 <strong>CNH:</strong> Categoria B (disponibilidade para tirar C ou D)</li>
+      </ul>
+    </section>
+    
+    <section class="informacoes-adicionais">
+      <h2>📌 Informações Adicionais</h2>
+      <ul>
+        <li>Disponibilidade para trabalho em regime de safra ou efetivo</li>
+        <li>Disponibilidade para viagens e alojamento</li>
+        <li>Facilidade para trabalhar em equipe</li>
+        <li>Responsável e pontual</li>
+        <li>Interesse em cursos de aperfeiçoamento na área agrícola</li>
+      </ul>
+    </section>
+  </main>
 
   <footer>
-    <!-- Rodapé da página -->
-    <p>&copy; 2025 Todos os direitos reservados à RasinformaticA</p>
-    <!-- Texto de copyright e observação. &copy; → © (copyright) -->
+    <p>&copy; 2025 Rafael Assis Santos - Todos os direitos reservados</p>
+    <p class="atualizacao">Última atualização: Fevereiro/2025</p>
   </footer>
 
   <script src="script.js"></script>
-  <!-- Link para o arquivo JavaScript externo (funcionalidades) -->
 </body>
 </html>
